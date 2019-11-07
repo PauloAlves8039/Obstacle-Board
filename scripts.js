@@ -55,6 +55,42 @@ class Character{
             throw Error()
         }        
     }
+
+    up(){
+        if(this.y > 0){
+            this.setPosotion(this.x, this.y - 1)
+        }
+    }
+
+    down(){
+        if(this.y+1 < this.table.rows){
+            this.setPosotion(this.x, this.y + 1)
+        }
+    }
+
+    left(){
+        if(this.x > 0){
+            this.setPosotion(this.x - 1, this.y)
+        }
+    }
+
+    right(){
+        if(this.x+1 < this.table.cols){
+            this.setPosotion(this.x + 1, this.y)
+        }
+    }
+
+    setPosotion(x, y){
+        if(this.table.field[y][x] === ''){
+            this.table.field[this.y][this.x] = ''
+            this.x = x
+            this.y = y
+            this.table.field[this.y][this.x] = this.face
+            this.table.drawField()
+            return true
+        }
+        return false
+    }
 }
 
 
