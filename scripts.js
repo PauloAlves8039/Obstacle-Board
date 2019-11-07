@@ -42,6 +42,19 @@ class Field{
         }
         this.container.innerHTML = template
     }
+    
+}
+
+class Character{
+    constructor(field, x, y, face){
+        this.face = face
+        this.x = x
+        this.y = y
+        this.table = field
+        if(!this.setPosotion(this.x, this.y)){
+            throw Error()
+        }        
+    }
 }
 
 
