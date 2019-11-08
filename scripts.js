@@ -127,4 +127,20 @@ class Npc extends Character{
     }
 }
 
+function startField(){
+    let cols = document.querySelector('#cols').value || 3,
+        rows = document.querySelector('#cols').value || 3
+
+    document.querySelector('button').disabled = true
+
+    field = new Field(cols, rows, '#myTable')
+    try{
+        player =  new Player(field)
+    }catch(e){
+        console.log('starting field again!')
+        startField()
+    }
+    
+}
+
 
