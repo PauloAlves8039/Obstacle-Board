@@ -143,4 +143,27 @@ function startField(){
     
 }
 
+window.addEventListener('keyup', function(event){
+    if(player){
+        const A = 65,
+              S = 83,
+              D = 68,
+              W = 87
+        switch(event.keyCode){
+            case A:
+                player.left()
+                break
+            case S:
+                player.down()
+                break
+            case D:
+                player.right()
+                break
+            case W:
+                player.up()
+                break
+        }
+    }
+})
+
 
