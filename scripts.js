@@ -93,4 +93,12 @@ class Character{
     }
 }
 
+class Player extends Character{
+    constructor(field){
+        super(field, 0, 0, 'o_o')
+    }
+}
+
+
+
 
