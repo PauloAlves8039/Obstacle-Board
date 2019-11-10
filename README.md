@@ -8,3 +8,12 @@ pertencente a formação [Desenvolvedor Front-end Júnior](https://www.treinaweb
 - HTML5
 - CSS3
 - Javascript
+
+# Screenshot
+<html lang="pt-br">
+<head>
+</head>
+<body>
+	<img src="https://github.com/PauloAlves8039/Walking-The-Board/blob/master/image/screenshot.png">
+</body>
+</html>
