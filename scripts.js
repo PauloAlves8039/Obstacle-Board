@@ -143,6 +143,10 @@ function startField(){
     
 }
 
+function resetField(){
+    location.reload()    
+}
+
 window.addEventListener('keyup', function(event){
     if(player){
         const A = 65,
