@@ -1,8 +1,17 @@
 table, td, tr{
     border: 1px solid;
 }
+
 td{
     width: 45px;
     height: 45px;
     text-align: center;
+}
+
+#cols{
+    width: 60px;
+}
+
+#rows{
+    width: 60px;
 }
