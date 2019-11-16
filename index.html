@@ -1,21 +1,31 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <meta name="viewport" id="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=0">
     <title>Walking The Board</title>
     <link rel="stylesheet" href="./styles.css">
-    <link rel="icon" href="./icon/controle.png">    
+    <link rel="icon" href="./icon/controle.png">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 </head>
-<body>
-    <input type="number" id="cols" placeholder="Cols" min="3" max="10">
-    <input type="number" id="rows" placeholder="Rows" min="3" max="10">
-    <button onclick="startField()">Start</button>
-    <button onclick="resetField()">Reset</button>
-    <table id="myTable">
 
-    </table>
+<body>
+    
+    <form class="form-inline">
+        <input class="form-control" type="number" id="cols" placeholder="Cols" min="3" max="10">
+        <input class="form-control" type="number" id="rows" placeholder="Rows" min="3" max="10">
+        <button class="btn btn-success" onclick="startField()">START</button>
+        <button class="btn btn-default" onclick="resetField()">RESET</button>
+        <table id="myTable" class="table-hover">
+
+        </table>
+    </form>
+
     <script src='./scripts.js'></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </body>
+
 </html>

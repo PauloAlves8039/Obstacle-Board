@@ -1,5 +1,6 @@
 table, td, tr{
     border: 1px solid;
+    margin-top: 5px;
 }
 
 td{
@@ -9,9 +10,9 @@ td{
 }
 
 #cols{
-    width: 60px;
+    width: 80px;
 }
 
 #rows{
-    width: 60px;
+    width: 80px;
 }
