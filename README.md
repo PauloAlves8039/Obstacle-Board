@@ -8,6 +8,8 @@ pertencente a formação [Desenvolvedor Front-end Júnior](https://www.treinaweb
 - HTML5
 - CSS3
 - Javascript
+- Bootstrap v3.3.7
+
 
 # Screenshot
 <html lang="pt-br">
