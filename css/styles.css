@@ -1,7 +1,7 @@
   
 @font-face {
     font-family: FontBody;
-    src: url('./font/FredokaOne-Regular.ttf');
+    src: url(../resources/font/FredokaOne-Regular.ttf);
 }
 
 table, td, tr{
