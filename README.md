@@ -16,6 +16,6 @@ pertencente a formação [Desenvolvedor Front-end Júnior](https://www.treinaweb
 <head>
 </head>
 <body>
-	<img src="https://github.com/PauloAlves8039/Walking-The-Board/blob/master/image/screenshot.png">
+	<img src="https://github.com/PauloAlves8039/Walking-The-Board/blob/master/resources/image/screenshot.png">
 </body>
 </html>
