@@ -1,6 +1,13 @@
+  
+@font-face {
+    font-family: FontBody;
+    src: url('./font/FredokaOne-Regular.ttf');
+}
+
 table, td, tr{
     border: 1px solid;
     margin-top: 5px;
+    font-family: FontBody;
 }
 
 td{
@@ -9,10 +16,20 @@ td{
     text-align: center;
 }
 
+form{
+    margin: 5px;
+}
+
 #cols{
     width: 80px;
+    font-family: FontBody;
 }
 
 #rows{
     width: 80px;
+    font-family: FontBody;
+}
+
+#btnApp{
+    font-family: FontBody; 
 }
